@@ -1058,8 +1058,6 @@ class ChatGPTTelegramBot:
 
         application.add_handler(CommandHandler('reset', self.reset))
         application.add_handler(CommandHandler('help', self.help))
-        application.add_handler(CommandHandler('image', self.image))
-        application.add_handler(CommandHandler('tts', self.tts))
         application.add_handler(CommandHandler('start', self.help))
         application.add_handler(CommandHandler('stats', self.stats))
         application.add_handler(CommandHandler('resend', self.resend))
